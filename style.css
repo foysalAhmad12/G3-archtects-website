@@ -72,16 +72,18 @@ main{
 .team-container{
     display: flex;
     align-items: center;
-    padding: 40px  0px 0px 150px;
+    margin: 50px auto;
 }
 .team-img-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1.5rem;
 }
+.team-content{
+    width: 50%;
+}
 .team-img-container img{
-    width: 200px;
-    height: 300px;
+    width: 100%;
 }
 .team-content{
     padding-left: 50px;
