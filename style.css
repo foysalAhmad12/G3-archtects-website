@@ -109,6 +109,16 @@ main{
 }
 /* Team style end  */
 /* Facts-section start  */
+.some-facts-container{
+    margin: 100px auto;
+}
+.fact-des{
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.fact-title{
+    margin-bottom: 15px;
+}
 .fact-card-container{
     display: flex;
     justify-content: space-around;
@@ -135,4 +145,27 @@ main{
     font-weight: 600;
     color: #727272;
     margin-top: 5px;
+}
+/* Sponsors start  */
+.sponsors{
+    text-align: center;
+    margin: 50px auto;
+}
+.sponsors-photo{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.sponsors-photo img {
+    width: 150px;
+}
+.footer{
+    width: 80%;
+    border-radius: 8px;
+    background-color: #fff4E7;
+    margin: 30px auto;
+    text-align: center;
+    padding: 15px 0px;
+    color: #424242;
 }
